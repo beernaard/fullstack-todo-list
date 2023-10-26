@@ -1,0 +1,12 @@
+.addinputtaskfield-main-container{
+    align-items: flex-end;
+}
+
+.addinputtaskfield-main-container button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 80px;
+    color: rgb(70, 88, 162);
+    cursor: pointer;
+}

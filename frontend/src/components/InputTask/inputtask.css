@@ -1,0 +1,44 @@
+.inputtask-main-container{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 230, 233);
+    padding: 13px;
+    border-radius: 20px;
+    list-style: none;
+    margin: 15px 5px;
+}
+
+.inputtask-input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    flex: 1;
+}
+
+.inputtask-btn-add{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.inputtask-btn-cancel{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+   
+}
+
+@media screen and (min-width: 1080px) {
+    .inputtask-main-container{
+        width: 90%;
+        margin-left: 24px; 
+    }
+  }

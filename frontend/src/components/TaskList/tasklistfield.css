@@ -1,0 +1,85 @@
+.tasklistfield-container{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 230, 233);
+    padding: 15px;
+    border-radius: 20px;
+    list-style: none;
+    margin: 15px 5px;
+}
+
+.tasklistfield-container-completed{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(119, 224, 152);
+    padding: 15px;
+    border-radius: 20px;
+    list-style: none;
+    margin: 15px 5px;
+    color: #fff;
+}
+.tasklistfield-container-completed input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+}
+
+.tasklistfield-container-input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    user-select: none;
+    cursor: default;
+}
+.tasklistfield-container-input-edit{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    flex: 1;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.39);
+}
+
+
+
+.tasklistfield-container-edit,
+.tasklistfield-container-delete,
+.tasklistfield-container-check{
+    font-size: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+@media screen and (min-width: 1080px) {
+    .tasklistfield-container{
+        width: 90%;
+        margin-left: 24px;
+    }
+    .tasklistfield-container-input{
+        width: 90%;
+        margin-left: 24px;   
+    }
+
+    .tasklistfield-container-input-edit{
+        width: 90%;
+        margin-left: 24px;
+    }
+    .tasklistfield-container-completed{
+        width: 90%;
+        margin-left: 24px;
+    }
+    .tasklistfield-container-completed input{
+        width: 90%;
+        margin-left: 24px;
+    }
+    
+
+  }

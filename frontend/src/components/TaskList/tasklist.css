@@ -1,0 +1,8 @@
+.tasklist-container{
+    overflow-y: auto;
+    width: 100%;
+}
+
+.tasklist-ul-containe{
+    width: 100%;  
+}

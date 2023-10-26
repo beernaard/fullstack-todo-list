@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .toastify{
+    position: absolute;
+  }
+  
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-container-content{
+    overflow: auto;
+    flex: 1;
+  }
+  
+  @media screen and (min-width: 1080px) {
+    body{
+      background-color: rgb(230, 230, 252);
+    }
+    .main-container-content{
+      width: 100%;
+    }
+    .main-container{
+      width: 500px;
+      height: 650px;
+      background-color: #fff;
+      border-radius: 20px;
+      margin: 3rem auto 0;
+    }
+  }
+  
