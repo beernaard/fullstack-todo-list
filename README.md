@@ -20,6 +20,10 @@ MongoDB/Mongoose, Express.js, React.js, Node.js
 ### Other user's list
 ![todolistpulgoso](https://github.com/beernaard/fullstack-todo-list/assets/142719026/4b975295-ad67-4b70-80b1-4108f643f291)
 
+### input task
+![todolistinoput](https://github.com/beernaard/fullstack-todo-list/assets/142719026/a2d036fb-e388-42ac-a380-19539db3c4e8)
+
+
 ### patch/update task
 ![todolistupdate](https://github.com/beernaard/fullstack-todo-list/assets/142719026/7c0733e2-26ab-4a29-8748-be1c87b01cad)
 
